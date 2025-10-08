@@ -27,41 +27,51 @@
     border: 1px dashed blue;
     margin-bottom: 1px;
     padding-bottom: 14px;
+    padding-left: 1px;
   }
   
   .box2 {
-    flex-basis: 46px;
+    flex-basis: 48px;
+    height: 200px;
     border: 1px dashed blue;
-    margin-bottom: 1px;
-    padding-bottom: 14px;
     padding-top: 1px;
-    margin-right: 7px;
+    padding-left: 1px;
+    margin-right: 2px;
+    margin-top: 1px;
   }
   
   .box3 {
-    flex-basis: 466px;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-right: 350px;
+    flex-basis: 469px;
+    height: 200px;
+    margin-top: 1px;
+    margin-left: 1px;
+    padding-left: 2px;
+    padding-top: 1px;
   }
   
   .box4 {
-    flex-basis: 465px;
-    padding-right: 455px;
+    flex-basis: 468px;
+    height: 200px;
     padding-top: 1px;
-    margin-left: 5px;
-
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 4px;
+    margin-top: 1px;
   }
-  
+
   .box5 {
-    flex-basis: 1100px;
-    margin-bottom: 1px;
-    padding-bottom: 14px;
+    flex-basis: 1103px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    margin-right: 5px;
     padding-top: 1px;
-  }
-  
-  .box6 {
-    flex-basis: 138px;
-    padding-top: 1px;
+    padding-left: 1px;
   }
 
+  .box6 {
+    flex-basis: 143px;
+    height: 200px;
+    margin-top: 2px;
+    padding-top: 1px;
+    }
