@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://cdn.imgchest.com/files/6yxkcg9ek7w.png);
+    background-repeat: no-repeat;
+    max-width: 1282px;
+    min-height: 1199px;
+    font-size: 2rem;
+    opacity: 0.5;
+    color: blue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 435px 497px 351px;
+    grid-template-rows: 44px 126px 120px 448px 465px;
+    grid-template-areas:
+      "one one one"
+      "two six seven"
+      "three three three"
+      "four four four"
+      "five five five";
+}
+
+.container > * {
+    border: 2px dashed blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0.5rem;
+}
+
+.box1 { grid-area: one; }
+.box2 { grid-area: two; }
+.box3 { grid-area: three; }
+.box4 { grid-area: four; }
+.box5 { grid-area: five; }
+.box6 { grid-area: six; }
+.box7 { grid-area: seven; }
