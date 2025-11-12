@@ -15,8 +15,8 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 435px 497px 351px;
-    grid-template-rows: 44px 126px 120px 448px 465px;
+    grid-template-columns: 435px 498px 351px;
+    grid-template-rows: 44px 126px 121px 448px 465px;
     grid-template-areas:
       "one one one"
       "two six seven"
