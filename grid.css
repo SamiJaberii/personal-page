@@ -30,6 +30,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    
 }
 
 .box1 { grid-area: one; }
