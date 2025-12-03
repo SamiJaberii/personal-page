@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://cdn.imgchest.com/files/6yxkcg9ek7w.png);
+    background-repeat: no-repeat;
+    max-width: 1282px;
+    min-height: 1199px;
+    font-size: 2rem;
+    opacity: 0.5;
+    color: blue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 435px 498px 351px;
+    grid-template-rows: 44px 126px 121px 448px 465px;
+    grid-template-areas:
+      "one one one"
+      "two six seven"
+      "three three three"
+      "four four four"
+      "five five five";
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgba(0, 152, 202, 0.5);
+    color: #ffffff;
+
+    max-width: 100%;
+    min-height: 100%;
+    align-items: center;
+    }
+
+ul li {
+        white-space: nowrap;
+    }
+    
+.container > * {
+    border: 2px dashed blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.box1 { grid-area: one; }
+.box2 { grid-area: two; }
+.box3 { grid-area: three; }
+.box4 { grid-area: four; }
+.box5 { grid-area: five; }
+.box6 { grid-area: six; }
+.box7 { grid-area: seven; }
+
+.cars { flex-basis: 20px; }
+.comm { flex-basis: 20px; }
+.moto { flex-basis: 20px; }
+.auto { flex-basis: 20px; }
+.spare { flex-basis: 20px; }
+.serv { flex-basis: 20px; }
+.buy { flex-basis: 20px; }
+.check { flex-basis: 20px; }
+.tablets { flex-basis: 20px; }
+.computers { flex-basis: 20px; }
+.accessories { flex-basis: 20px; }
+.climate { flex-basis: 20px; }
+.huawei { flex-basis: 20px; }
+.server { flex-basis: 20px; }
+.smartwatch { flex-basis: 20px; }
+.audio { flex-basis: 20px; }
+.transport { flex-basis: 20px; }
+.health { flex-basis: 20px; }
