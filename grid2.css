@@ -16,8 +16,18 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 435px 498px 351px;
-    grid-template-rows: 44px 126px 121px 448px 465px;
+    grid-template-columns:
+        minmax(200px, 435px)
+        minmax(200px, 498px)
+        minmax(200px, 351px);
+
+    grid-template-rows:
+        minmax(44px, auto)
+        minmax(126px, auto)
+        minmax(121px, auto)
+        minmax(448px, auto)
+        minmax(465px, auto);
+
     grid-template-areas:
       "one one one"
       "two six seven"
