@@ -45,11 +45,13 @@ ul {
     margin: 0;
     display: flex;
     background-color: rgba(0, 152, 202, 0.5);
-    color: #ffffff;
-
-    max-width: 100%;
+    color: #fa0202;
+    max-width: 1100px;
     min-height: 100%;
-    align-items: center;
+    padding-left: 17px;
+    padding-top: 12px;
+    margin-left: 67px;
+    flex-wrap: wrap;
     }
 
 ul li {
@@ -71,21 +73,90 @@ ul li {
 .box6 { grid-area: six; }
 .box7 { grid-area: seven; }
 
-.cars { flex-basis: 20px; }
-.comm { flex-basis: 20px; }
-.moto { flex-basis: 20px; }
-.auto { flex-basis: 20px; }
-.spare { flex-basis: 20px; }
-.serv { flex-basis: 20px; }
-.buy { flex-basis: 20px; }
-.check { flex-basis: 20px; }
-.tablets { flex-basis: 20px; }
-.computers { flex-basis: 20px; }
-.accessories { flex-basis: 20px; }
-.climate { flex-basis: 20px; }
-.huawei { flex-basis: 20px; }
-.server { flex-basis: 20px; }
-.smartwatch { flex-basis: 20px; }
-.audio { flex-basis: 20px; }
-.transport { flex-basis: 20px; }
-.health { flex-basis: 20px; }
+.cars { 
+    flex-basis: 20px; 
+}
+
+.comm {
+    flex-basis: 20px; 
+    padding-left: 31px;
+}
+
+.moto {
+    flex-basis: 20px;
+    padding-left: 33px; 
+}
+
+.auto { 
+    flex-basis: 20px;
+    padding-left: 33px; 
+}
+
+.spare { 
+    flex-basis: 20px;
+    padding-left: 31px; 
+}
+
+.serv { 
+    flex-basis: 20px;
+    padding-left: 31px; 
+}
+
+.buy { 
+    flex-basis: 20px;
+    padding-left: 32px; 
+}
+
+.check { 
+    flex-basis: 20px;
+    padding-left: 32px; 
+}
+
+.tablets { 
+    flex-basis: 20px;
+    padding-left: 32px; 
+}
+
+.computers { 
+    flex-basis: 20px;
+    padding-bottom: 24px;
+    padding-left: 5px; 
+}
+
+.accessories { 
+    flex-basis: 20px; 
+    padding-left: 29px;
+}
+
+.climate {
+    flex-basis: 20px;
+    padding-left: 31px; 
+}
+
+.huawei { 
+    flex-basis: 20px;
+    padding-left: 37px; 
+}
+
+.server { 
+    flex-basis: 20px;
+    padding-left: 32px;
+}
+
+.smartwatch { 
+    flex-basis: 20px;
+    padding-left: 33px; 
+}
+
+.audio { 
+    flex-basis: 20px;
+    padding-left: 36px; 
+}
+
+.transport { 
+    flex-basis: 20px;
+}
+
+.health { 
+    flex-basis: 20px; 
+}
