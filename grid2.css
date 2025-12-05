@@ -45,8 +45,8 @@ ul {
     margin: 0;
     display: flex;
     background-color: rgba(0, 152, 202, 0.5);
-    color: #fa0202;
-    max-width: 1100px;
+    color: #ffffff;
+    max-width: 1124px;
     min-height: 100%;
     padding-left: 17px;
     padding-top: 12px;
@@ -57,7 +57,11 @@ ul {
 ul li {
         white-space: nowrap;
     }
-    
+
+ul.products li {
+        text-align: center;
+    }
+      
 .container > * {
     border: 2px dashed blue;
     display: flex;
@@ -114,49 +118,56 @@ ul li {
 
 .tablets { 
     flex-basis: 20px;
-    padding-left: 32px; 
+    padding-left: 32px;
+    padding-right: 6px; 
 }
 
 .computers { 
     flex-basis: 20px;
-    padding-bottom: 24px;
-    padding-left: 5px; 
+    padding-right: 5px;
+    padding-top: 18px;
+    padding-bottom: 19px;
 }
 
 .accessories { 
     flex-basis: 20px; 
     padding-left: 29px;
+    padding-top: 19px;
+    
 }
 
 .climate {
     flex-basis: 20px;
     padding-left: 31px; 
+    padding-top: 19px;
 }
 
 .huawei { 
     flex-basis: 20px;
     padding-left: 37px; 
+    padding-top: 19px;
 }
 
 .server { 
     flex-basis: 20px;
     padding-left: 32px;
+    padding-top: 19px;
 }
 
 .smartwatch { 
     flex-basis: 20px;
-    padding-left: 33px; 
+    padding-left: 30px; 
+    padding-top: 19px;
 }
 
 .audio { 
     flex-basis: 20px;
-    padding-left: 36px; 
-}
-
-.transport { 
-    flex-basis: 20px;
+    padding-left: 39px;
+    padding-right: 51px;
+    padding-top: 19px;
 }
 
 .health { 
-    flex-basis: 20px; 
+    flex-basis: 20px;
+    padding-bottom: 3px;
 }
