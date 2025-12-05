@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://cdn.imgchest.com/files/6yxkcg9ek7w.png);
+    background-repeat: no-repeat;
+    max-width: 1282px;
+    min-height: 1199px;
+    font-size: 2rem;
+    color: blue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:
+        minmax(200px, 435px)
+        minmax(200px, 498px)
+        minmax(200px, 351px);
+    grid-template-rows:
+        minmax(44px, auto)
+        minmax(126px, auto)
+        minmax(121px, auto)
+        minmax(448px, auto)
+        minmax(465px, auto);
+    grid-template-areas:
+      "one one one"
+      "two six seven"
+      "two three three"
+      "two four four"
+      "five five five";
+}
+
+.container > * {
+    border: 2px dashed blue;
+    display: flex;
+}
+
+.box1 { grid-area: one; }
+.box2 { grid-area: two; }
+.box3 { grid-area: three; }
+.box4 { grid-area: four; }
+.box5 { grid-area: five; }
+.box6 { grid-area: six; }
+.box7 { grid-area: seven; }
+
+.box2 {
+    display: flex;
+}
+
+.box2 ul {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    background-color: #0098ca;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.box2 ul li {
+    padding: 12px 18px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffffff;
+    white-space: nowrap;
+}
+
+img:nth-of-type(1) {
+    display: none;
+   }
+
+body {
+    background-image: none;
+    opacity: 1;
+   }
