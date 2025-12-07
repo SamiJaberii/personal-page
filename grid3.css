@@ -29,8 +29,8 @@ body {
     grid-template-areas:
       "one one one"
       "two six seven"
-      "two three three"
-      "two four four"
+      "three three three"
+      "four four four"
       "five five five";
 }
 
@@ -47,11 +47,11 @@ body {
 .box6 { grid-area: six; }
 .box7 { grid-area: seven; }
 
-.box2 {
+.box3 {
     display: flex;
 }
 
-.box2 ul {
+.box3 ul {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -63,7 +63,7 @@ body {
     font-size: 12px;
 }
 
-.box2 ul li {
+.box3 ul li {
     padding: 12px 18px;
     text-transform: uppercase;
     border-bottom: 1px solid #ffffff;
