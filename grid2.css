@@ -77,97 +77,96 @@ ul.products li {
 .box6 { grid-area: six; }
 .box7 { grid-area: seven; }
 
-.cars { 
-    flex-basis: 20px; 
+.kids-products {
+    flex-basis: 20px;
 }
 
-.comm {
-    flex-basis: 20px; 
+.apple-products {
+    flex-basis: 20px;
     padding-left: 31px;
 }
 
-.moto {
+.smartphones {
     flex-basis: 20px;
-    padding-left: 33px; 
+    padding-left: 33px;
 }
 
-.auto { 
+.huawei-accessories {
     flex-basis: 20px;
-    padding-left: 33px; 
+    padding-left: 33px;
 }
 
-.spare { 
+.tablets {
     flex-basis: 20px;
-    padding-left: 31px; 
+    padding-left: 31px;
 }
 
-.serv { 
+.accessories {
     flex-basis: 20px;
-    padding-left: 31px; 
+    padding-left: 31px;
 }
 
-.buy { 
-    flex-basis: 20px;
-    padding-left: 32px; 
-}
-
-.check { 
-    flex-basis: 20px;
-    padding-left: 32px; 
-}
-
-.tablets { 
+.xiaomi-accessories {
     flex-basis: 20px;
     padding-left: 32px;
-    padding-right: 6px; 
 }
 
-.computers { 
+.smartwatches {
+    flex-basis: 20px;
+    padding-left: 32px;
+}
+
+.audio-devices {
+    flex-basis: 20px;
+    padding-left: 32px;
+    padding-right: 6px;
+}
+
+.network-equipment {
     flex-basis: 20px;
     padding-right: 5px;
     padding-top: 18px;
     padding-bottom: 19px;
 }
 
-.accessories { 
-    flex-basis: 20px; 
+.televisions {
+    flex-basis: 20px;
     padding-left: 29px;
     padding-top: 19px;
-    
 }
 
-.climate {
+.trade-equipment {
     flex-basis: 20px;
-    padding-left: 31px; 
+    padding-left: 31px;
     padding-top: 19px;
 }
 
-.huawei { 
+.computers-accessories {
     flex-basis: 20px;
-    padding-left: 37px; 
+    padding-left: 37px;
     padding-top: 19px;
 }
 
-.server { 
+.microclimate {
     flex-basis: 20px;
     padding-left: 32px;
     padding-top: 19px;
 }
 
-.smartwatch { 
+.server-equipment {
     flex-basis: 20px;
-    padding-left: 30px; 
+    padding-left: 30px;
     padding-top: 19px;
 }
 
-.audio { 
+.transport {
     flex-basis: 20px;
     padding-left: 39px;
     padding-right: 51px;
     padding-top: 19px;
 }
 
-.health { 
+.health-products {
     flex-basis: 20px;
     padding-bottom: 3px;
 }
