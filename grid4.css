@@ -44,7 +44,7 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    background-color: rgba(0, 152, 202, 0.5);
+    background-color: rgba(0, 152, 202);
     color: #ffffff;
     max-width: 1124px;
     min-height: 100%;
@@ -97,9 +97,12 @@ ul.products li {
 
 
 .box2 img {
-    width: 435px;
-    height: 123px;
+    width: 419px;
+    height: 115px;
     object-fit: contain;
+    padding-left: 46px;
+    padding-top: 1px;
+    margin-top: 5px;
 }
 
 
