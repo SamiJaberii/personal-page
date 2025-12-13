@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 9</title>
+    <link rel="stylesheet" href="grid4.css" class="style"/>
+  </head>
+  <body>
+    <button onclick="switchStyle()" style="position: absolute; 
+    top:0; right:0; z-index:1000;">Style</button>
+    <img src='https://cdn.imgchest.com/files/k739c6dgz7q.png' 
+    style='position: absolute; top:0; left:0;z-index:-1'>
+    <div class="container">
+      <div class="box1">1</div>
+      <div class="box2">
+        <img
+          src="https://cdn.imgchest.com/files/22235d7a985d.png"
+          alt="login"
+        />
+      </div>      
+      <div class="box3">3
+        <ul class="products">
+          <li class="kids-products">Все для детей</li>
+          <li class="apple-products">Продукция Apple</li> 
+          <li class="smartphones">Смартфоны</li> 
+          <li class="huawei-accessories">Аксессуары Huawei</li> 
+          <li class="tablets">Планшеты</li> 
+          <li class="accessories">Аксессуары</li> 
+          <li class="xiaomi-accessories">Аксессуары Xiaomi</li> 
+          <li class="smartwatches">Смарт - часы</li> 
+          <li class="audio-devices">Audio устр-a</li>
+          <li class="network-equipment">Сетевое оборуд-e</li>  
+          <li class="televisions">Телевизоры</li>
+          <li class="trade-equipment">Торговое оборуд-e</li>  
+          <li class="computers-accessories">Компьютеры и аксессуары</li>
+          <li class="microclimate">Микроклимат</li>
+          <li class="server-equipment">Серверное оборудование</li>
+          <li class="transport">Транспорт</li>
+          <li class="health-products">Товары для здоровья</li>     
+        </ul>
+      </div>
+      <div class="box4">4</div>
+      <div class="box5">5</div>
+      <div class="box6">6</div>
+      <div class="box7">7</div>
+    </div>
+    <script>
+      function switchStyle() {
+        let style = document.querySelector('.style');
+        if (style.getAttribute('href') === 'grid4.css') {
+            style.setAttribute('href', 'grid2.css');
+        } else {
+            style.setAttribute('href', 'grid4.css');
+        }
+      }
+    </script>
+  </body>
+</html>

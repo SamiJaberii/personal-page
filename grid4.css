@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://cdn.imgchest.com/files/6yxkcg9ek7w.png);
+    background-repeat: no-repeat;
+    max-width: 1282px;
+    min-height: 1199px;
+    font-size: 2rem;
+    opacity: 0.5;
+    color: blue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:
+        minmax(200px, 435px)
+        minmax(200px, 498px)
+        minmax(200px, 351px);
+
+    grid-template-rows:
+        minmax(44px, auto)
+        minmax(126px, auto)
+        minmax(121px, auto)
+        minmax(448px, auto)
+        minmax(465px, auto);
+
+    grid-template-areas:
+      "one one one"
+      "two six seven"
+      "three three three"
+      "four four four"
+      "five five five";
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgba(0, 152, 202, 0.5);
+    color: #ffffff;
+    max-width: 1124px;
+    min-height: 100%;
+    padding-left: 17px;
+    padding-top: 12px;
+    margin-left: 67px;
+    flex-wrap: wrap;
+    }
+
+ul li {
+        white-space: nowrap;
+    }
+
+ul.products li {
+        text-align: center;
+    }
+      
+.container > * {
+    border: 2px dashed blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.box1 { grid-area: one; }
+.box2 { grid-area: two; }
+.box3 { grid-area: three; }
+.box4 { grid-area: four; }
+.box5 { grid-area: five; }
+.box6 { grid-area: six; }
+.box7 { grid-area: seven; }
+
+.kids-products { flex-basis: 20px; }
+.apple-products { flex-basis: 20px; padding-left: 31px; }
+.smartphones { flex-basis: 20px; padding-left: 33px; }
+.huawei-accessories { flex-basis: 20px; padding-left: 33px; }
+.tablets { flex-basis: 20px; padding-left: 31px; }
+.accessories { flex-basis: 20px; padding-left: 31px; }
+.xiaomi-accessories { flex-basis: 20px; padding-left: 32px; }
+.smartwatches { flex-basis: 20px; padding-left: 32px; }
+.audio-devices { flex-basis: 20px; padding-left: 32px; padding-right: 6px; }
+.network-equipment { flex-basis: 20px; padding-right: 5px; padding-top: 18px; padding-bottom: 19px; }
+.televisions { flex-basis: 20px; padding-left: 29px; padding-top: 19px; }
+.trade-equipment { flex-basis: 20px; padding-left: 31px; padding-top: 19px; }
+.computers-accessories { flex-basis: 20px; padding-left: 37px; padding-top: 19px; }
+.microclimate { flex-basis: 20px; padding-left: 32px; padding-top: 19px; }
+.server-equipment { flex-basis: 20px; padding-left: 30px; padding-top: 19px; }
+.transport { flex-basis: 20px; padding-left: 39px; padding-right: 51px; padding-top: 19px; }
+.health-products { flex-basis: 20px; padding-bottom: 3px; }
+
+
+.box2 img {
+    width: 435px;
+    height: 123px;
+    object-fit: contain;
+}
+
+
+/*body > img:nth-of-type(1) {
+    display: none;
+   }
+   body {
+    background-image: none;
+    opacity: 1;
+   }*/
